@@ -1,0 +1,55 @@
+header {
+    overflow: hidden;
+    border: 1px;
+    border-color: goldenrod;
+    border-style: solid;
+}
+
+header ul li{
+    list-style-type: none;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+}
+
+.disabled {
+    color: gray;
+}
+
+a .disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+article section div > blue{
+    color: blue;
+}
+
+article section div > red{
+    color: red;
+}
+red + h4{
+    background-color: red;
+}
+
+blue + h4{
+    background-color: blue;
+}
+
+article section div + h4{
+    border: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+input[type]{
+    height: 25px;
+}
